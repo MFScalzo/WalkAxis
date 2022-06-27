@@ -1,5 +1,5 @@
-# Fromual? F(N)= ((N(N + 1))/2) + 1
-# Using Triangular Number formula + 1
+# Fromual? F(N)= ((N(N + 1))/2) + N
+# Using Triangular Number formula + N
 
 def walk(N):
     return int((((N * N) + N) / 2) + N)
