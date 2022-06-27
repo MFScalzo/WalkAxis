@@ -14,18 +14,25 @@ Constraints
 Sample 1:
 
 Input:
-
-2
-
-1
-
-2
+    
+    2
+    1
+    2
 
 Output:
 
-2
-
-5
+    2
+    5
 
 Explanation:
 Testcase #2 You are initially at (0, 0) Rightmost on-light is (2, 0). Distance = 2. Now you are at (2, 0). Left most on-light is (0, 0). Distance = 2. Now you are at (0, 0) Right most on-light is(1, 0). Distance = 1. Now you are at (1, 0) and all lights are turned off. Total distance walked = 5.
+
+## Usage
+
+    cd WalkAxis
+    python walk.py
+    2
+    1
+    2
+    
+You can then run the program exactly as it appears in the test cases. First line of input is the number of test cases, and each line after that is the N to test.
